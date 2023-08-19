@@ -18,9 +18,10 @@
  .item:nth-child(2) {
     flex: 3;
  }
- 
- .item:last-child{
-justify-content: flex-end;}
+
+ .item:last-child {
+    justify-content: flex-end;
+ }
 
  .callButton {
     background-color: rgb(11, 231, 62);
@@ -45,7 +46,7 @@ justify-content: flex-end;}
     font-weight: bold;
  }
 
- .list{
+ .list {
     padding: 0;
     display: flex;
     align-items: center;
@@ -53,28 +54,29 @@ justify-content: flex-end;}
     color: white;
  }
 
-.listItem{
-   margin: 20px;
-   font-weight: 500;
-   
-}
+ .listItem {
+    margin: 20px;
+    font-weight: 500;
 
-.cart{
-   position: relative;
-}
-.counter{
-   position: absolute;
-   top: 40px;
-   right: 38px;
-   width: 20px;
-   height: 20px;
-   border-radius: 50%;
-   background-color: white;
-   padding: 3px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-weight: bold;
-   color: orange; 
+ }
 
-}
+ .cart {
+    position: relative;
+ }
+
+ .counter {
+    position: absolute;
+    top: 40px;
+    right: 38px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: orange;
+
+ }
