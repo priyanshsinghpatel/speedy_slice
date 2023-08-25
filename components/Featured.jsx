@@ -5,7 +5,7 @@ import { useState } from "react";
 const Featured = () => {
   const [index, setIndex] = useState(0);
   const images = [
-    "/img/featured.png",
+   // "/img/featured.png",
     "/img/featured2.png",
     "/img/featured3.png",
   ];
@@ -27,7 +27,7 @@ const Featured = () => {
       <div className={styles.wrapper} style={{transform:`translateX(${-100*index}vw)`}}>
         {images.map((img, i) => (
           <div className={styles.imgContainer} key={i}>
-            <Image src={img} alt="" objectFit="contain" width="1500" height="800" />
+            <Image src={img} alt="" objectFit="contain" width="1300" height="700" />
           </div>
         ))}
       </div>

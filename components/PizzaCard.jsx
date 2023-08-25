@@ -5,11 +5,10 @@ const PizzaCard = () => {
   return (
     <div className={styles.container}>
       <Image src="/img/pizza.png" alt="" width="100" height="100" />
-      <h1 className={styles.title}>FIORI DI ZUCCA</h1>
-      <span className={styles.price}>$19.90</span>
+      <h1 className={styles.title}>Best Pizza</h1>
+      <span className={styles.price}>Rs. 190</span>
       <p className={styles.desc}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </p>
+      "A Slice of Heaven, Delivered On Demand."      </p>
     </div>
   );
 };
